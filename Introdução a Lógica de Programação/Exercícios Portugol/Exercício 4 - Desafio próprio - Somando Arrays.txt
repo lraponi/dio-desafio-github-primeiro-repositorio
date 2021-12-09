@@ -1,0 +1,71 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+         inteiro contador=0
+         cadeia feira[][]={{"banana","10 caixas","R$ 500"},{"maçã","2 caixas","R$ 300"},{"uva","3 caixas","R$ 500"}}
+         cadeia resposta
+         inteiro precos[]={500,300,500}
+         inteiro caixas[]={10,2,3}
+         inteiro valortotal
+         inteiro ncaixas
+         
+
+         faca{
+          
+          escreva("Você quer  " +  feira[contador][0] + "? " + "\n" + "Temos " + feira[contador][1] + " , que vão lhe custar " + feira[contador][2] + "\n")
+          
+          contador ++
+
+          valortotal = precos[0] + precos[1] + precos[2]
+
+          ncaixas = caixas[0] + caixas[1] + caixas[2]
+          
+          escreva("\n")
+                
+
+         	
+         }enquanto (contador<=2)
+
+         escreva("Se quiser tudo isso, me diga SIM que eu calculo quanto ficaria para você levar tudo, e também quantas caixas vai levar pra casa!" + "\n" +  "Ou NAO que eu paro o programa por aqui, ok? ")
+         
+         leia(resposta)
+
+         
+         
+         se (resposta == "SIM"){
+
+         	escreva("\n")
+         
+         	escreva("Cara, você vai gastar exatamente " + valortotal + " reais para levar tudo." + "\n")
+
+       	escreva("Você vai levar para casa " + ncaixas + " caixas. " + "\n" + "Acho que é melhor buscar de carro!")
+
+        
+         }senao{
+
+         	escreva("\n")
+         
+         	escreva("Saindo do programa...")
+         }
+
+         
+
+         
+
+           
+
+      
+
+        	
+        
+         
+
+         
+
+
+		
+	}
+}

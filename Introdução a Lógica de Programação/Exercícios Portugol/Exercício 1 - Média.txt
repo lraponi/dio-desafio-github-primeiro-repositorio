@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+	{
+          inteiro janeiro,fevereiro,marco,abril,media
+          cadeia funcionario
+
+          escreva("Nome do funcionario: ")
+          leia(funcionario)
+
+          escreva("Quanto vendeu em Janeiro? ")
+          leia(janeiro)
+
+          escreva("Quanto vendeu em Fevereiro? ")
+          leia(fevereiro)
+
+          escreva("Quanto vendeu em Março? ")
+          leia(marco)
+
+          escreva("Quanto vendeu em Abril? ")
+          leia(abril)
+
+          media = (janeiro+fevereiro+marco+abril)/4
+                 
+          escreva("\n")
+          
+          
+          se (media > 2000)
+             
+             escreva("Meus parabéns, " + funcionario + ". Sua média de vendas no perídodo dos últimos 4 meses foi "  + "R$" + media + "\n" + "Você foi a +!")
+
+          senao
+
+             escreva("Ta tudo bem, " + funcionario + ". Sua média nos últimos 4 meses foi "  + "R$" + media + "\n" + "Um novo mês sempre uma nova esperança de fazermos mais!")
+
+             
+          
+          
+          
+         
+          
+          }
+}

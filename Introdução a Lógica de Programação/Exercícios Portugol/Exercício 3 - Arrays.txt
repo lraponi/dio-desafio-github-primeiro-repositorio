@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+          inteiro contador=0
+          cadeia  clientes[][]={{"Ana ","São Paulo ","1544556688"},{"Bete ","Manaus ","1425365696"},{"Kleber ","Sergipe ","1578789646"}}
+
+          faca{
+
+          	escreva("\n" + "Nome: " + clientes[contador][0] + "\n" + "\n" + "Cidade: " + clientes[contador][1] + "\n" + "Celular: " + clientes[contador][2] + "\n")
+          	contador ++
+          	escreva("\n" + "Ainda preciso concatenar certo xD")
+
+
+          }enquanto(contador<=2)
+          
+          
+
+
+		
+	}
+}
