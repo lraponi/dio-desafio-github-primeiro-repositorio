@@ -1,0 +1,20 @@
+title, h1, h2 {
+font-size: 16px;
+font-style: italic;
+color: green;
+}
+
+.post_title {
+color: red;
+font-size: 32px;
+}
+
+.unlist1, .unlist2 {
+color: yellow;
+font-size: 14px;
+}
+
+.olist1, .olist2 {
+color: yellow;
+font-size: 14px;  
+}
